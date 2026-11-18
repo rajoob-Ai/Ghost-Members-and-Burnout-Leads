@@ -5,7 +5,8 @@
       "name": "Developer Student Society",
       "category": "Technical",
       "leads": [
-        "Aarav Sharma"
+        "Aarav Sharma (President)",
+        "Vikram Sharma (Vice Lead)"
       ]
     },
     {
@@ -13,15 +14,17 @@
       "name": "UI/UX Creative Collective",
       "category": "Design",
       "leads": [
-        "Vikram Sharma"
+        "Vikram Sharma",
+        "Kavya Deshmukh"
       ]
     },
     {
       "id": "robotics",
-      "name": "Robotics & Automation Club",
+      "name": "Robotics & Automation Society",
       "category": "Technical",
       "leads": [
-        "Sahil Mehta"
+        "Sahil Mehta",
+        "Aman Deep"
       ]
     }
   ],
@@ -32,15 +35,15 @@
       "clubId": "dev-soc",
       "mentor": "Vikram Sharma",
       "status": "Optimal",
-      "issues": "None"
+      "issues": "None (All sprints moving forward smoothly)"
     },
     {
       "id": "pod-2",
       "name": "Web Dev Pod 1",
       "clubId": "dev-soc",
       "mentor": "Sahil Mehta",
-      "status": "Optimal",
-      "issues": "None"
+      "status": "Stalled",
+      "issues": "Freshers awaiting GitHub organization repository access"
     },
     {
       "id": "pod-3",
@@ -48,15 +51,31 @@
       "clubId": "dev-soc",
       "mentor": "Tanya Roy",
       "status": "Stalled",
-      "issues": "Verify Block 34 room access"
+      "issues": "Pending Dean approval for Block 34 auditorium key"
     },
     {
       "id": "pod-4",
       "name": "Social Media PR Pod",
       "clubId": "dev-soc",
       "mentor": "Priya Kumari",
+      "status": "Critical Block",
+      "issues": "Canva Enterprise team seats full; 2 freshers blocked"
+    },
+    {
+      "id": "pod-5",
+      "name": "Technical Projects Pod",
+      "clubId": "dev-soc",
+      "mentor": "Aman Deep",
       "status": "Optimal",
-      "issues": "None"
+      "issues": "None (Starter repos initialized)"
+    },
+    {
+      "id": "pod-6",
+      "name": "Editorial & Content Pod",
+      "clubId": "dev-soc",
+      "mentor": "Meera Nair",
+      "status": "Optimal",
+      "issues": "None (Topic outlines verified)"
     }
   ],
   "members": [
@@ -64,55 +83,889 @@
       "id": "mem-1",
       "name": "Rohan Verma",
       "regNo": "12204592",
-      "email": "rohan.12204592@lpu.in",
+      "email": "12204592@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
       "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
       "skills": [
         "UI/UX Design",
-        "Social Media PR"
+        "Figma"
       ],
       "hoursPerWeek": 2,
       "onExamBreak": false,
-      "enrolledAt": "2026-10-12T10:30:00.000Z"
+      "status": "Verified Complete",
+      "enrolledAt": "2026-10-12T10:00:00.000Z"
     },
     {
       "id": "mem-2",
       "name": "Sneha Patel",
       "regNo": "12215894",
-      "email": "sneha.12215894@lpu.in",
+      "email": "12215894@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
       "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
       "skills": [
-        "UI/UX Design"
+        "Graphic Design",
+        "Photoshop"
       ],
       "hoursPerWeek": 3,
       "onExamBreak": false,
-      "enrolledAt": "2026-10-12T11:00:00.000Z"
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:07:00.000Z"
     },
     {
       "id": "mem-3",
-      "name": "Amit Kumar",
-      "regNo": "12109843",
-      "email": "amit.12109843@lpu.in",
-      "podId": "pod-3",
+      "name": "Aryan Malhotra",
+      "regNo": "12209412",
+      "email": "12209412@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
       "skills": [
-        "Event Logistics"
-      ],
-      "hoursPerWeek": 4,
-      "onExamBreak": true,
-      "enrolledAt": "2026-10-14T09:15:00.000Z"
-    },
-    {
-      "id": "mem-4-0866",
-      "name": "Kavya Singh",
-      "regNo": "12209988",
-      "email": "12209988@lpu.in",
-      "podId": "pod-4",
-      "skills": [
-        "Social Media / PR",
         "UI/UX Design"
       ],
       "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T12:14:00.000Z"
+    },
+    {
+      "id": "mem-4",
+      "name": "Ananya Gupta",
+      "regNo": "12218734",
+      "email": "12218734@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "Typography",
+        "Canva"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Verified Complete",
+      "enrolledAt": "2026-10-12T13:21:00.000Z"
+    },
+    {
+      "id": "mem-5",
+      "name": "Varun Kapoor",
+      "regNo": "12203115",
+      "email": "12203115@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "Illustration",
+        "Figma"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T14:28:00.000Z"
+    },
+    {
+      "id": "mem-6",
+      "name": "Tanvi Shah",
+      "regNo": "12214902",
+      "email": "12214902@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "UI/UX Design"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T15:35:00.000Z"
+    },
+    {
+      "id": "mem-7",
+      "name": "Kunal Bhatia",
+      "regNo": "12207651",
+      "email": "12207651@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "Graphic Design"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T16:42:00.000Z"
+    },
+    {
+      "id": "mem-8",
+      "name": "Riya Sen",
+      "regNo": "12219082",
+      "email": "12219082@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "UI/UX Design"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T17:49:00.000Z"
+    },
+    {
+      "id": "mem-9",
+      "name": "Aditya Kashyap",
+      "regNo": "12205541",
+      "email": "12205541@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "Color Theory",
+        "Figma"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T10:56:00.000Z"
+    },
+    {
+      "id": "mem-10",
+      "name": "Mehak Gill",
+      "regNo": "12213290",
+      "email": "12213290@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-1",
+      "podName": "Design Pod A",
+      "mentor": "Vikram Sharma",
+      "skills": [
+        "Canva Design"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:03:00.000Z"
+    },
+    {
+      "id": "mem-11",
+      "name": "Siddharth Nair",
+      "regNo": "12201984",
+      "email": "12201984@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T12:10:00.000Z"
+    },
+    {
+      "id": "mem-12",
+      "name": "Ishaan Reddy",
+      "regNo": "12216503",
+      "email": "12216503@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "React",
+        "CSS Grid"
+      ],
+      "hoursPerWeek": 4,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T13:17:00.000Z"
+    },
+    {
+      "id": "mem-13",
+      "name": "Pooja Rao",
+      "regNo": "12208129",
+      "email": "12208129@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "Frontend",
+        "Tailwind"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Blocked / At-Risk",
+      "enrolledAt": "2026-10-12T14:24:00.000Z"
+    },
+    {
+      "id": "mem-14",
+      "name": "Gaurav Mishra",
+      "regNo": "12212340",
+      "email": "12212340@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "JavaScript",
+        "DOM"
+      ],
+      "hoursPerWeek": 2,
       "onExamBreak": true,
-      "enrolledAt": "2026-11-18T16:12:40.866Z"
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T15:31:00.000Z"
+    },
+    {
+      "id": "mem-15",
+      "name": "Kavita Joshi",
+      "regNo": "12206771",
+      "email": "12206771@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "HTML/CSS",
+        "Git"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T16:38:00.000Z"
+    },
+    {
+      "id": "mem-16",
+      "name": "Harsh Vardhan",
+      "regNo": "12214589",
+      "email": "12214589@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "Node.js",
+        "REST"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T17:45:00.000Z"
+    },
+    {
+      "id": "mem-17",
+      "name": "Bhavna Sethi",
+      "regNo": "12209012",
+      "email": "12209012@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "Web Dev"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T10:52:00.000Z"
+    },
+    {
+      "id": "mem-18",
+      "name": "Nikhil Chauhan",
+      "regNo": "12217823",
+      "email": "12217823@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "CSS Flexbox",
+        "HTML5"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:59:00.000Z"
+    },
+    {
+      "id": "mem-19",
+      "name": "Deepak Soni",
+      "regNo": "12204190",
+      "email": "12204190@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "Frontend"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T12:06:00.000Z"
+    },
+    {
+      "id": "mem-20",
+      "name": "Simran Sandhu",
+      "regNo": "12211904",
+      "email": "12211904@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-2",
+      "podName": "Web Dev Pod 1",
+      "mentor": "Sahil Mehta",
+      "skills": [
+        "JavaScript"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T13:13:00.000Z"
+    },
+    {
+      "id": "mem-21",
+      "name": "Amit Kumar",
+      "regNo": "12109843",
+      "email": "12109843@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Event Logistics",
+        "Coordination"
+      ],
+      "hoursPerWeek": 4,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T14:20:00.000Z"
+    },
+    {
+      "id": "mem-22",
+      "name": "Rahul Mehra",
+      "regNo": "12219981",
+      "email": "12219981@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Vendor Mgmt",
+        "Logistics"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T15:27:00.000Z"
+    },
+    {
+      "id": "mem-23",
+      "name": "Shreya Sharma",
+      "regNo": "12203456",
+      "email": "12203456@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Hospitality",
+        "Planning"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Blocked / At-Risk",
+      "enrolledAt": "2026-10-12T16:34:00.000Z"
+    },
+    {
+      "id": "mem-24",
+      "name": "Manish Tiwari",
+      "regNo": "12215672",
+      "email": "12215672@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Stage Mgmt"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T17:41:00.000Z"
+    },
+    {
+      "id": "mem-25",
+      "name": "Neha Saxena",
+      "regNo": "12207890",
+      "email": "12207890@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Logistics",
+        "Budgeting"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T10:48:00.000Z"
+    },
+    {
+      "id": "mem-26",
+      "name": "Karan Oberoi",
+      "regNo": "12212901",
+      "email": "12212901@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Crowd Flow"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:55:00.000Z"
+    },
+    {
+      "id": "mem-27",
+      "name": "Pankaj Rana",
+      "regNo": "12206123",
+      "email": "12206123@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Venue Setup"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T12:02:00.000Z"
+    },
+    {
+      "id": "mem-28",
+      "name": "Divya Aggarwal",
+      "regNo": "12218450",
+      "email": "12218450@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-3",
+      "podName": "Event Logistics Pod",
+      "mentor": "Tanya Roy",
+      "skills": [
+        "Volunteer Mgmt"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T13:09:00.000Z"
+    },
+    {
+      "id": "mem-29",
+      "name": "Kavya Singh",
+      "regNo": "12209988",
+      "email": "12209988@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Content Writing",
+        "Instagram"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T14:16:00.000Z"
+    },
+    {
+      "id": "mem-30",
+      "name": "Abhishek Pandey",
+      "regNo": "12217765",
+      "email": "12217765@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Reels Editing",
+        "CapCut"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Blocked / At-Risk",
+      "enrolledAt": "2026-10-12T15:23:00.000Z"
+    },
+    {
+      "id": "mem-31",
+      "name": "Zoya Akhtar",
+      "regNo": "12202319",
+      "email": "12202319@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "PR & Outreach"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T16:30:00.000Z"
+    },
+    {
+      "id": "mem-32",
+      "name": "Mayank Goyal",
+      "regNo": "12214309",
+      "email": "12214309@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "LinkedIn PR"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Blocked / At-Risk",
+      "enrolledAt": "2026-10-12T17:37:00.000Z"
+    },
+    {
+      "id": "mem-33",
+      "name": "Swati Deshmukh",
+      "regNo": "12208871",
+      "email": "12208871@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Social Media"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T10:44:00.000Z"
+    },
+    {
+      "id": "mem-34",
+      "name": "Rajat Singhal",
+      "regNo": "12213452",
+      "email": "12213452@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Photography"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:51:00.000Z"
+    },
+    {
+      "id": "mem-35",
+      "name": "Alok Verma",
+      "regNo": "12205612",
+      "email": "12205612@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Analytics",
+        "Instagram"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T12:58:00.000Z"
+    },
+    {
+      "id": "mem-36",
+      "name": "Pallavi Rao",
+      "regNo": "12219803",
+      "email": "12219803@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-4",
+      "podName": "Social Media PR Pod",
+      "mentor": "Priya Kumari",
+      "skills": [
+        "Content Creation"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T13:05:00.000Z"
+    },
+    {
+      "id": "mem-37",
+      "name": "Pranav Jain",
+      "regNo": "12201124",
+      "email": "12201124@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "Python",
+        "FastAPI"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T14:12:00.000Z"
+    },
+    {
+      "id": "mem-38",
+      "name": "Kriti Varma",
+      "regNo": "12216781",
+      "email": "12216781@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "Data Science",
+        "Pandas"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T15:19:00.000Z"
+    },
+    {
+      "id": "mem-39",
+      "name": "Akash Solanki",
+      "regNo": "12209823",
+      "email": "12209823@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "IoT",
+        "Arduino"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T16:26:00.000Z"
+    },
+    {
+      "id": "mem-40",
+      "name": "Sonia Gill",
+      "regNo": "12213904",
+      "email": "12213904@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "Machine Learning"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T17:33:00.000Z"
+    },
+    {
+      "id": "mem-41",
+      "name": "Vikas Yadav",
+      "regNo": "12207198",
+      "email": "12207198@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "Cloud",
+        "GCP"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T10:40:00.000Z"
+    },
+    {
+      "id": "mem-42",
+      "name": "Naveen Khatri",
+      "regNo": "12218012",
+      "email": "12218012@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-5",
+      "podName": "Technical Projects Pod",
+      "mentor": "Aman Deep",
+      "skills": [
+        "Git",
+        "DevOps"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T11:47:00.000Z"
+    },
+    {
+      "id": "mem-43",
+      "name": "Tarun Ahuja",
+      "regNo": "12203948",
+      "email": "12203948@lpu.in",
+      "department": "B.Tech CSE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Copywriting"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T12:54:00.000Z"
+    },
+    {
+      "id": "mem-44",
+      "name": "Geetika Sen",
+      "regNo": "12214490",
+      "email": "12214490@lpu.in",
+      "department": "B.Tech IT",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Proofreading"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T13:01:00.000Z"
+    },
+    {
+      "id": "mem-45",
+      "name": "Rakesh Mallick",
+      "regNo": "12208234",
+      "email": "12208234@lpu.in",
+      "department": "B.Tech ECE",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Technical Writing"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T14:08:00.000Z"
+    },
+    {
+      "id": "mem-46",
+      "name": "Monika Sharma",
+      "regNo": "12216120",
+      "email": "12216120@lpu.in",
+      "department": "B.Tech AI/ML",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Blog Writing"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "status": "Exam Break",
+      "enrolledAt": "2026-10-12T15:15:00.000Z"
+    },
+    {
+      "id": "mem-47",
+      "name": "Suraj Pillai",
+      "regNo": "12205091",
+      "email": "12205091@lpu.in",
+      "department": "B.Des Multimedia",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Interviewing"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T16:22:00.000Z"
+    },
+    {
+      "id": "mem-48",
+      "name": "Ankita Roy",
+      "regNo": "12217349",
+      "email": "12217349@lpu.in",
+      "department": "BCA",
+      "year": "1st Year (Session 2026-30)",
+      "podId": "pod-6",
+      "podName": "Editorial & Content Pod",
+      "mentor": "Meera Nair",
+      "skills": [
+        "Creative Writing"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "status": "Active Sprint",
+      "enrolledAt": "2026-10-12T17:29:00.000Z"
     }
   ],
   "tasks": [
@@ -121,9 +974,10 @@
       "memberId": "mem-1",
       "podId": "pod-1",
       "title": "Draft 1 Instagram Event Story (Canva)",
-      "description": "Open club Canva template, modify headline to \"Friday Hack Workshop · Block 34-201\", and download preview PNG.",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
       "estimatedMinutes": 35,
       "status": "Verified Complete",
+      "issue": null,
       "submissionUrl": "https://canva.com/design/sample-draft-v1",
       "submittedAt": "2026-10-13T14:20:00.000Z"
     },
@@ -132,33 +986,564 @@
       "memberId": "mem-2",
       "podId": "pod-1",
       "title": "Design 1 LinkedIn Event Banner",
-      "description": "Use the official typography pack to create a 1200x628px banner for upcoming hackathon.",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
       "estimatedMinutes": 45,
       "status": "In Progress",
+      "issue": null,
       "submissionUrl": "",
       "submittedAt": null
     },
     {
       "id": "task-3",
       "memberId": "mem-3",
-      "podId": "pod-3",
-      "title": "Caretaker Sound System Verification",
-      "description": "Visit Block 34 caretaker office, confirm wireless mic battery availability for Friday 4 PM.",
-      "estimatedMinutes": 20,
+      "podId": "pod-1",
+      "title": "Create 3 Event Sticker Icons",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 40,
       "status": "In Progress",
+      "issue": null,
       "submissionUrl": "",
       "submittedAt": null
     },
     {
-      "id": "task-4-0866",
-      "memberId": "mem-4-0866",
+      "id": "task-4",
+      "memberId": "mem-4",
+      "podId": "pod-1",
+      "title": "Format Club Speaker Introduction Card",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 30,
+      "status": "Verified Complete",
+      "issue": null,
+      "submissionUrl": "https://canva.com/design/sample-draft-v1",
+      "submittedAt": "2026-10-13T14:20:00.000Z"
+    },
+    {
+      "id": "task-5",
+      "memberId": "mem-5",
+      "podId": "pod-1",
+      "title": "Draw Mascot Avatar for Hackathon",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-6",
+      "memberId": "mem-6",
+      "podId": "pod-1",
+      "title": "Design Registration Form Wireframe",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-7",
+      "memberId": "mem-7",
+      "podId": "pod-1",
+      "title": "Clean Badge Mockups in Canva",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-8",
+      "memberId": "mem-8",
+      "podId": "pod-1",
+      "title": "Mobile Nav Component Prototype",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-9",
+      "memberId": "mem-9",
+      "podId": "pod-1",
+      "title": "Build Color Palette Tokens",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 30,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-10",
+      "memberId": "mem-10",
+      "podId": "pod-1",
+      "title": "Create 1 Event WhatsApp Display Picture",
+      "description": "Micro-delegation sprint for Design Pod A. Guided by senior mentor Vikram Sharma.",
+      "estimatedMinutes": 25,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-11",
+      "memberId": "mem-11",
+      "podId": "pod-2",
+      "title": "Build Event Countdown Timer Component",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-12",
+      "memberId": "mem-12",
+      "podId": "pod-2",
+      "title": "Responsive Navbar Component",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-13",
+      "memberId": "mem-13",
+      "podId": "pod-2",
+      "title": "Clone Hackathon Landing Template",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 45,
+      "status": "Blocked",
+      "issue": "Awaiting GitHub repo invite from lead",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-14",
+      "memberId": "mem-14",
+      "podId": "pod-2",
+      "title": "Paused for Midterms (B.Tech CSE)",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 26",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-15",
+      "memberId": "mem-15",
+      "podId": "pod-2",
+      "title": "Fix Footer Links & Responsive Margins",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-16",
+      "memberId": "mem-16",
+      "podId": "pod-2",
+      "title": "Setup Mock JSON Endpoint for Registrations",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-17",
+      "memberId": "mem-17",
+      "podId": "pod-2",
+      "title": "Paused for Midterms (B.Tech IT)",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 27",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-18",
+      "memberId": "mem-18",
+      "podId": "pod-2",
+      "title": "Style Speaker Card Carousel",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-19",
+      "memberId": "mem-19",
+      "podId": "pod-2",
+      "title": "Add Favicon & Meta Tags for SEO",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 20,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-20",
+      "memberId": "mem-20",
+      "podId": "pod-2",
+      "title": "Form Validation Logic for Email",
+      "description": "Micro-delegation sprint for Web Dev Pod 1. Guided by senior mentor Sahil Mehta.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-21",
+      "memberId": "mem-21",
+      "podId": "pod-3",
+      "title": "Midterm exams (Section K22)",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 25",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-22",
+      "memberId": "mem-22",
+      "podId": "pod-3",
+      "title": "Confirm Audi Mic Battery Stock with Caretaker",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 25,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-23",
+      "memberId": "mem-23",
+      "podId": "pod-3",
+      "title": "Book Block 34 Caretaker Room Key",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 40,
+      "status": "Blocked",
+      "issue": "Awaiting Dean signature on requisition",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-24",
+      "memberId": "mem-24",
+      "podId": "pod-3",
+      "title": "Midterm exams (Mechanical Engg)",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 28",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-25",
+      "memberId": "mem-25",
+      "podId": "pod-3",
+      "title": "Draft Refreshment Token Budget Sheet",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-26",
+      "memberId": "mem-26",
+      "podId": "pod-3",
+      "title": "Sketch Entry/Exit Flow Chart for Block 34",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 30,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-27",
+      "memberId": "mem-27",
+      "podId": "pod-3",
+      "title": "Midterm exams (Civil Engg)",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 29",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-28",
+      "memberId": "mem-28",
+      "podId": "pod-3",
+      "title": "Create Volunteer Duty Roaster in Sheets",
+      "description": "Micro-delegation sprint for Event Logistics Pod. Guided by senior mentor Tanya Roy.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-29",
+      "memberId": "mem-29",
       "podId": "pod-4",
       "title": "Draft 1 Event Social Caption (100 words)",
-      "description": "Time-boxed 45-minute starter sprint. Guided by your assigned pod mentor.",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
       "estimatedMinutes": 35,
-      "status": "Verified Complete",
-      "submissionUrl": "https://canva.com/design/DAFexample",
-      "submittedAt": "2026-11-18T16:12:46.206Z"
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-30",
+      "memberId": "mem-30",
+      "podId": "pod-4",
+      "title": "Edit 15s Speaker Announcement Teaser",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 45,
+      "status": "Blocked",
+      "issue": "Canva Pro seat full; waiting for team invite",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-31",
+      "memberId": "mem-31",
+      "podId": "pod-4",
+      "title": "Draft Broadcast Message for WhatsApp",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 25,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-32",
+      "memberId": "mem-32",
+      "podId": "pod-4",
+      "title": "Write Speaker Spotlight Post",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 40,
+      "status": "Blocked",
+      "issue": "Instagram / LinkedIn credentials not shared",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-33",
+      "memberId": "mem-33",
+      "podId": "pod-4",
+      "title": "Midterm exams (B.Com / CSE dual)",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 26",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-34",
+      "memberId": "mem-34",
+      "podId": "pod-4",
+      "title": "Curate Photo Drive for Friday Session",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 30,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-35",
+      "memberId": "mem-35",
+      "podId": "pod-4",
+      "title": "Track Past Event Engagement Reach",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-36",
+      "memberId": "mem-36",
+      "podId": "pod-4",
+      "title": "Design 3 Story Poll Questions",
+      "description": "Micro-delegation sprint for Social Media PR Pod. Guided by senior mentor Priya Kumari.",
+      "estimatedMinutes": 20,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-37",
+      "memberId": "mem-37",
+      "podId": "pod-5",
+      "title": "Dockerize Microservice Skeleton",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-38",
+      "memberId": "mem-38",
+      "podId": "pod-5",
+      "title": "Clean Member Survey CSV Dataset",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-39",
+      "memberId": "mem-39",
+      "podId": "pod-5",
+      "title": "Test ESP32 Wi-Fi Sensor Beacon",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-40",
+      "memberId": "mem-40",
+      "podId": "pod-5",
+      "title": "Evaluate Attendance Prediction Model",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-41",
+      "memberId": "mem-41",
+      "podId": "pod-5",
+      "title": "Midterms & Certification (B.Tech CSE)",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 27",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-42",
+      "memberId": "mem-42",
+      "podId": "pod-5",
+      "title": "Setup GitHub Actions Linting Workflow",
+      "description": "Micro-delegation sprint for Technical Projects Pod. Guided by senior mentor Aman Deep.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-43",
+      "memberId": "mem-43",
+      "podId": "pod-6",
+      "title": "Write 200-Word Event Synopsis for Gazette",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 35,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-44",
+      "memberId": "mem-44",
+      "podId": "pod-6",
+      "title": "Proofread Club Newsletter Issue #4",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 40,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-45",
+      "memberId": "mem-45",
+      "podId": "pod-6",
+      "title": "Document API Setup for New Freshers",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-46",
+      "memberId": "mem-46",
+      "podId": "pod-6",
+      "title": "Midterm exams (B.A. Journalism & Tech)",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 0,
+      "status": "Paused",
+      "issue": "Resumes on Nov 25",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-47",
+      "memberId": "mem-47",
+      "podId": "pod-6",
+      "title": "Draft 5 Questions for Faculty Advisor Q&A",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 30,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-48",
+      "memberId": "mem-48",
+      "podId": "pod-6",
+      "title": "Craft Event Theme Taglines & Slogans",
+      "description": "Micro-delegation sprint for Editorial & Content Pod. Guided by senior mentor Meera Nair.",
+      "estimatedMinutes": 25,
+      "status": "In Progress",
+      "issue": null,
+      "submissionUrl": "",
+      "submittedAt": null
     }
   ]
 }

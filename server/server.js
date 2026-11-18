@@ -177,7 +177,8 @@ const server = http.createServer(async (req, res) => {
     const db = readDb();
     const totalRecruits = db.members.length;
     const onBreak = db.members.filter(m => m.onExamBreak).length;
-    const activeSprints = totalRecruits - onBreak;
+    const blockedCount = db.members.filter(m => m.status && m.status.includes('Blocked')).length;
+    const activeSprints = totalRecruits - onBreak - blockedCount;
     const atRiskPods = db.pods.filter(p => p.status === 'Critical Block' || p.status === 'Stalled').length;
     const tasksCompleted = db.tasks.filter(t => t.status === 'Verified Complete').length;
 
@@ -185,7 +186,8 @@ const server = http.createServer(async (req, res) => {
       totalRecruits,
       activeSprints,
       onBreak,
-      atRiskPods,
+      blocked: blockedCount,
+      atRiskPods: blockedCount, // Corresponds to the 4 Blocked/At-Risk indicator
       totalTasks: db.tasks.length,
       tasksCompleted,
       activationRate: totalRecruits > 0 ? Math.round((tasksCompleted / totalRecruits) * 100) : 0
@@ -212,10 +214,50 @@ const server = http.createServer(async (req, res) => {
     return sendJson(res, 200, podsWithMetrics);
   }
 
-  // GET /api/members
+  // GET /api/members (Rich Member Directory with Task & Pod Join)
   if (pathname === '/api/members' && req.method === 'GET') {
     const db = readDb();
-    return sendJson(res, 200, db.members);
+    const statusParam = parsedUrl.searchParams.get('status');
+    const podParam = parsedUrl.searchParams.get('podId');
+    const queryParam = parsedUrl.searchParams.get('q');
+
+    let results = db.members.map(member => {
+      const memberTask = db.tasks.find(t => t.memberId === member.id) || null;
+      const memberPod = db.pods.find(p => p.id === member.podId) || null;
+      return {
+        ...member,
+        task: memberTask,
+        pod: memberPod
+      };
+    });
+
+    if (statusParam) {
+      if (statusParam.toLowerCase() === 'active') {
+        results = results.filter(m => !m.onExamBreak && (!m.status || !m.status.includes('Blocked')));
+      } else if (statusParam.toLowerCase() === 'break' || statusParam.toLowerCase() === 'pause') {
+        results = results.filter(m => m.onExamBreak);
+      } else if (statusParam.toLowerCase() === 'blocked') {
+        results = results.filter(m => m.status && m.status.includes('Blocked'));
+      } else if (statusParam.toLowerCase() === 'complete') {
+        results = results.filter(m => m.task && m.task.status === 'Verified Complete');
+      }
+    }
+
+    if (podParam) {
+      results = results.filter(m => m.podId === podParam);
+    }
+
+    if (queryParam) {
+      const q = queryParam.toLowerCase();
+      results = results.filter(m =>
+        m.name.toLowerCase().includes(q) ||
+        m.regNo.toLowerCase().includes(q) ||
+        (m.skills && m.skills.some(s => s.toLowerCase().includes(q))) ||
+        (m.podName && m.podName.toLowerCase().includes(q))
+      );
+    }
+
+    return sendJson(res, 200, results);
   }
 
   // POST /api/enroll (Onboarding Enrollment Form)
