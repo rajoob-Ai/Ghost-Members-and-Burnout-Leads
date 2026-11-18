@@ -1,0 +1,13 @@
+{
+  "name": "clubsync-fullstack",
+  "version": "1.0.0",
+  "description": "ClubSync - Full Stack Campus Club Onboarding and Micro-Delegation System (LPU INT335 Design Thinking Project P18)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": ["design-thinking", "lpu", "full-stack", "clubs-management", "student-retention"],
+  "author": "Jagadeesh Reddy Punnati",
+  "license": "MIT"
+}

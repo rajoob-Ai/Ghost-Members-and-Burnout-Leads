@@ -1,0 +1,164 @@
+{
+  "clubs": [
+    {
+      "id": "dev-soc",
+      "name": "Developer Student Society",
+      "category": "Technical",
+      "leads": [
+        "Aarav Sharma"
+      ]
+    },
+    {
+      "id": "design-hub",
+      "name": "UI/UX Creative Collective",
+      "category": "Design",
+      "leads": [
+        "Vikram Sharma"
+      ]
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics & Automation Club",
+      "category": "Technical",
+      "leads": [
+        "Sahil Mehta"
+      ]
+    }
+  ],
+  "pods": [
+    {
+      "id": "pod-1",
+      "name": "Design Pod A",
+      "clubId": "dev-soc",
+      "mentor": "Vikram Sharma",
+      "status": "Optimal",
+      "issues": "None"
+    },
+    {
+      "id": "pod-2",
+      "name": "Web Dev Pod 1",
+      "clubId": "dev-soc",
+      "mentor": "Sahil Mehta",
+      "status": "Optimal",
+      "issues": "None"
+    },
+    {
+      "id": "pod-3",
+      "name": "Event Logistics Pod",
+      "clubId": "dev-soc",
+      "mentor": "Tanya Roy",
+      "status": "Stalled",
+      "issues": "Verify Block 34 room access"
+    },
+    {
+      "id": "pod-4",
+      "name": "Social Media PR Pod",
+      "clubId": "dev-soc",
+      "mentor": "Priya Kumari",
+      "status": "Optimal",
+      "issues": "None"
+    }
+  ],
+  "members": [
+    {
+      "id": "mem-1",
+      "name": "Rohan Verma",
+      "regNo": "12204592",
+      "email": "rohan.12204592@lpu.in",
+      "podId": "pod-1",
+      "skills": [
+        "UI/UX Design",
+        "Social Media PR"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": false,
+      "enrolledAt": "2026-10-12T10:30:00.000Z"
+    },
+    {
+      "id": "mem-2",
+      "name": "Sneha Patel",
+      "regNo": "12215894",
+      "email": "sneha.12215894@lpu.in",
+      "podId": "pod-1",
+      "skills": [
+        "UI/UX Design"
+      ],
+      "hoursPerWeek": 3,
+      "onExamBreak": false,
+      "enrolledAt": "2026-10-12T11:00:00.000Z"
+    },
+    {
+      "id": "mem-3",
+      "name": "Amit Kumar",
+      "regNo": "12109843",
+      "email": "amit.12109843@lpu.in",
+      "podId": "pod-3",
+      "skills": [
+        "Event Logistics"
+      ],
+      "hoursPerWeek": 4,
+      "onExamBreak": true,
+      "enrolledAt": "2026-10-14T09:15:00.000Z"
+    },
+    {
+      "id": "mem-4-0866",
+      "name": "Kavya Singh",
+      "regNo": "12209988",
+      "email": "12209988@lpu.in",
+      "podId": "pod-4",
+      "skills": [
+        "Social Media / PR",
+        "UI/UX Design"
+      ],
+      "hoursPerWeek": 2,
+      "onExamBreak": true,
+      "enrolledAt": "2026-11-18T16:12:40.866Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "memberId": "mem-1",
+      "podId": "pod-1",
+      "title": "Draft 1 Instagram Event Story (Canva)",
+      "description": "Open club Canva template, modify headline to \"Friday Hack Workshop · Block 34-201\", and download preview PNG.",
+      "estimatedMinutes": 35,
+      "status": "Verified Complete",
+      "submissionUrl": "https://canva.com/design/sample-draft-v1",
+      "submittedAt": "2026-10-13T14:20:00.000Z"
+    },
+    {
+      "id": "task-2",
+      "memberId": "mem-2",
+      "podId": "pod-1",
+      "title": "Design 1 LinkedIn Event Banner",
+      "description": "Use the official typography pack to create a 1200x628px banner for upcoming hackathon.",
+      "estimatedMinutes": 45,
+      "status": "In Progress",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-3",
+      "memberId": "mem-3",
+      "podId": "pod-3",
+      "title": "Caretaker Sound System Verification",
+      "description": "Visit Block 34 caretaker office, confirm wireless mic battery availability for Friday 4 PM.",
+      "estimatedMinutes": 20,
+      "status": "In Progress",
+      "submissionUrl": "",
+      "submittedAt": null
+    },
+    {
+      "id": "task-4-0866",
+      "memberId": "mem-4-0866",
+      "podId": "pod-4",
+      "title": "Draft 1 Event Social Caption (100 words)",
+      "description": "Time-boxed 45-minute starter sprint. Guided by your assigned pod mentor.",
+      "estimatedMinutes": 35,
+      "status": "Verified Complete",
+      "submissionUrl": "https://canva.com/design/DAFexample",
+      "submittedAt": "2026-11-18T16:12:46.206Z"
+    }
+  ]
+}

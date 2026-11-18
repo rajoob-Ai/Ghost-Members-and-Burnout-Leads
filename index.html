@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ClubSync · Production MVP & Faculty Walkthrough</title>
+  <title>ClubSync · Full-Stack Campus Club Onboarding System</title>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -28,7 +28,6 @@
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
     body { background: #f1f5f9; color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
 
-    /* Top Navigation Header */
     header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
@@ -100,9 +99,7 @@
       gap: 6px;
       transition: all 0.2s;
     }
-    .faculty-toggle:hover { background: #dbeafe; }
 
-    /* Faculty Walkthrough Mode Banner */
     .walkthrough-banner {
       background: linear-gradient(135deg, #1e3a8a, #0d9488);
       color: white;
@@ -111,7 +108,6 @@
       justify-content: space-between;
       align-items: center;
       font-size: 0.85rem;
-      animation: fadeIn 0.3s ease;
     }
     .walkthrough-banner b { color: #fde047; }
     .walkthrough-close {
@@ -125,7 +121,6 @@
       font-weight: 700;
     }
 
-    /* Main Container */
     main {
       flex: 1;
       max-width: 1080px;
@@ -142,7 +137,6 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* Cards */
     .card {
       background: var(--surface);
       border-radius: var(--radius-lg);
@@ -161,7 +155,6 @@
     .card-title { font-size: 1.3rem; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
     .card-desc { font-size: 0.875rem; color: var(--text-muted); margin-top: 0.25rem; }
 
-    /* Faculty Annotation Callout */
     .dt-note {
       background: #fdf4ff;
       border-left: 4px solid #a855f7;
@@ -171,12 +164,9 @@
       font-size: 0.825rem;
       color: #7e22ce;
       line-height: 1.5;
-      display: none;
     }
-    .dt-note.visible { display: block; }
     .dt-note b { color: #581c87; }
 
-    /* Forms */
     .form-group { margin-bottom: 1.25rem; }
     .form-label { display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; color: #334155; }
     .form-input {
@@ -190,7 +180,6 @@
     }
     .form-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12); }
 
-    /* Pill Badges */
     .pill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem; }
     .pill-checkbox { display: none; }
     .pill-label {
@@ -213,7 +202,6 @@
       font-weight: 700;
     }
 
-    /* Slider Container */
     .slider-box {
       background: var(--surface-subtle);
       padding: 1.25rem;
@@ -224,7 +212,6 @@
     .slider-val { color: var(--primary); font-size: 1.05rem; font-family: 'JetBrains Mono', monospace; font-weight: 700; }
     input[type=range] { width: 100%; height: 6px; border-radius: 4px; accent-color: var(--primary); cursor: pointer; }
 
-    /* Buttons */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -242,7 +229,6 @@
     .btn-primary { background: var(--primary-gradient); color: white; width: 100%; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3); }
     .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4); }
 
-    /* Task Card Hero */
     .task-hero {
       background: linear-gradient(135deg, #0f172a, #1e293b);
       color: white;
@@ -319,7 +305,6 @@
     }
     .wa-btn:hover { background: #20ba5a; transform: scale(1.02); }
 
-    /* Psychological Safety Banner */
     .safety-alert {
       background: #f0fdf4;
       border: 1.5px solid #bbf7d0;
@@ -333,7 +318,6 @@
       font-size: 0.875rem;
     }
 
-    /* Graceful Pause Box */
     .pause-box {
       background: #fffbeb;
       border: 1px solid #fde68a;
@@ -360,7 +344,6 @@
     }
     .pause-btn.paused { background: #64748b; }
 
-    /* Lead Dashboard Components */
     .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
     .stat-tile {
       background: var(--surface);
@@ -372,7 +355,6 @@
     .stat-num { font-size: 2rem; font-weight: 800; font-family: 'JetBrains Mono', monospace; }
     .stat-label { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-top: 0.25rem; }
 
-    /* Pod Table */
     table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.875rem; }
     th { padding: 0.85rem 1rem; background: var(--surface-subtle); color: var(--text-muted); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; border-bottom: 1px solid var(--border); }
     td { padding: 1.1rem 1rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
@@ -389,7 +371,6 @@
     .badge-amber { background: #fef3c7; color: #b45309; }
     .badge-red { background: #fee2e2; color: #b91c1c; }
 
-    /* Viva Defense Helper Tab */
     .viva-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
     .viva-card {
       background: var(--surface-subtle);
@@ -413,7 +394,6 @@
 </head>
 <body>
 
-  <!-- Top Faculty Walkthrough Banner -->
   <div class="walkthrough-banner" id="walkthroughBanner">
     <div>
       🎓 <b>Faculty Showcase Mode Active:</b> Design Thinking annotations and Viva defense prompts are highlighted throughout the interface.
@@ -425,7 +405,7 @@
     <div class="brand">
       <div class="brand-logo">CS</div>
       <div class="brand-text">
-        <h1>ClubSync System · Production MVP</h1>
+        <h1>ClubSync System · Full-Stack MVP</h1>
         <span>Lovely Professional University · INT335 Innovation Project (P18)</span>
       </div>
     </div>
@@ -467,11 +447,11 @@
           <div class="form-group">
             <label class="form-label">Select Up to 2 Areas of Practical Interest</label>
             <div class="pill-grid">
-              <label><input type="checkbox" name="interest" value="Design" class="pill-checkbox" checked><span class="pill-label">UI/UX & Graphics</span></label>
-              <label><input type="checkbox" name="interest" value="WebDev" class="pill-checkbox"><span class="pill-label">Web / App Dev</span></label>
-              <label><input type="checkbox" name="interest" value="Logistics" class="pill-checkbox"><span class="pill-label">Event Logistics</span></label>
-              <label><input type="checkbox" name="interest" value="PR" class="pill-checkbox"><span class="pill-label">PR & Socials</span></label>
-              <label><input type="checkbox" name="interest" value="Photography" class="pill-checkbox"><span class="pill-label">Media & Camera</span></label>
+              <label><input type="checkbox" name="interest" value="UI/UX Design" class="pill-checkbox" checked><span class="pill-label">UI/UX & Graphics</span></label>
+              <label><input type="checkbox" name="interest" value="Web Dev" class="pill-checkbox"><span class="pill-label">Web / App Dev</span></label>
+              <label><input type="checkbox" name="interest" value="Event Logistics" class="pill-checkbox"><span class="pill-label">Event Logistics</span></label>
+              <label><input type="checkbox" name="interest" value="Social Media PR" class="pill-checkbox"><span class="pill-label">PR & Socials</span></label>
+              <label><input type="checkbox" name="interest" value="Media" class="pill-checkbox"><span class="pill-label">Media & Camera</span></label>
             </div>
           </div>
 
@@ -481,14 +461,14 @@
                 <span>Realistic Weekly Hours Budget</span>
                 <span class="slider-val" id="hourVal">2 Hours / Week</span>
               </div>
-              <input type="range" min="1" max="6" value="2" oninput="document.getElementById('hourVal').innerText = this.value + ' Hours / Week'">
+              <input type="range" id="hourInput" min="1" max="6" value="2" oninput="document.getElementById('hourVal').innerText = this.value + ' Hours / Week'">
               <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">
                 *Tasks assigned will strictly adhere to your selected availability so midterms and lab exams are never impacted.
               </p>
             </div>
           </div>
 
-          <button type="submit" class="btn btn-primary">Complete Onboarding & Access Starter Task →</button>
+          <button type="submit" class="btn btn-primary" id="btnEnroll">Complete Onboarding & Access Starter Task →</button>
         </form>
       </div>
     </section>
@@ -520,10 +500,10 @@
         </div>
 
         <div class="buddy-card">
-          <div class="buddy-avatar">VS</div>
+          <div class="buddy-avatar" id="mentorAvatar">VS</div>
           <div class="buddy-details">
-            <h4>Senior Mentor: Vikram Sharma</h4>
-            <p>3rd Year B.Tech CSE · Design Lead (Design Pod 1)</p>
+            <h4 id="mentorName">Senior Mentor: Vikram Sharma</h4>
+            <p id="mentorRole">3rd Year B.Tech CSE · Design Lead (Design Pod A)</p>
           </div>
           <button class="wa-btn" onclick="triggerWhatsApp()">
             💬 WhatsApp Mentor
@@ -535,13 +515,13 @@
         <div class="card-header">
           <div>
             <div class="card-title">Submit Starter Output</div>
-            <div class="card-desc">Paste your Canva draft link or Drive preview for Vikram to review.</div>
+            <div class="card-desc">Paste your Canva draft link or Drive preview for review.</div>
           </div>
         </div>
         <div class="form-group">
           <input type="text" id="submissionUrl" class="form-input" placeholder="https://canva.com/design/..." value="https://canva.com/design/DAF39x92_preview">
         </div>
-        <button class="btn btn-primary" onclick="handleTaskComplete()">Submit Draft & Notify Mentor ✓</button>
+        <button class="btn btn-primary" id="btnSubmitTask" onclick="handleTaskComplete()">Submit Draft & Notify Mentor ✓</button>
       </div>
 
       <!-- Exam Pause Section -->
@@ -583,8 +563,9 @@
         <div class="card-header">
           <div>
             <div class="card-title">Real-Time Functional Pod Health</div>
-            <div class="card-desc">President Aarav's executive view: diagnose stalled pods in 15 seconds without scanning hundreds of chat messages.</div>
+            <div class="card-desc">Executive overview: diagnose stalled pods in 15 seconds without scanning hundreds of chat messages.</div>
           </div>
+          <button onclick="fetchDashboardMetrics()" style="background: transparent; border: 1px solid var(--border); padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 0.75rem; font-weight: 700; color: var(--text-muted);">🔄 Refresh</button>
         </div>
 
         <div style="overflow-x: auto;">
@@ -680,9 +661,12 @@
     INT335 Design Thinking · Lovely Faculty of Technology & Sciences · Department of Full Stack Development
   </footer>
 
+  <script src="public/js/api.js"></script>
   <script>
     let examBreak = false;
     let facultyMode = true;
+    let registeredMemberId = 'mem-1';
+    let assignedTaskId = 'task-1';
 
     function showTab(id) {
       document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
@@ -706,33 +690,68 @@
       icon.innerText = facultyMode ? '🎓' : '👁️';
     }
 
-    function handleEnrollment(e) {
+    async function handleEnrollment(e) {
       e.preventDefault();
-      const name = document.getElementById('r_fullname').value;
-      alert(`🎉 Welcome ${name}!\n\nYou have been placed into "Design Pod A" with Senior Mentor Vikram Sharma.\nYour 45-minute starter task has been activated.`);
+      const nameInput = document.getElementById('r_fullname').value;
+      const hours = document.getElementById('hourInput').value;
+      const checkedBoxes = Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(cb => cb.value);
+
+      const payload = {
+        name: nameInput.split('(')[0].trim() || nameInput,
+        regNo: nameInput.includes('Reg:') ? nameInput.split('Reg:')[1].replace(')', '').trim() : '12204592',
+        skills: checkedBoxes.length > 0 ? checkedBoxes : ['UI/UX Design'],
+        hoursPerWeek: hours
+      };
+
+      // Try Backend API
+      if (typeof submitEnrollmentAPI === 'function') {
+        const apiRes = await submitEnrollmentAPI(payload);
+        if (apiRes && apiRes.member) {
+          registeredMemberId = apiRes.member.id;
+          assignedTaskId = apiRes.starterTask.id;
+          document.getElementById('displayTaskTitle').innerText = apiRes.starterTask.title;
+          document.getElementById('mentorName').innerText = `Senior Mentor: ${apiRes.pod.mentor}`;
+          document.getElementById('mentorRole').innerText = `Mentor · ${apiRes.pod.name}`;
+          fetchDashboardMetrics();
+        }
+      }
+
+      alert(`🎉 Welcome ${payload.name}!\n\nYou have been placed into a functional pod.\nYour 45-minute starter task has been activated.`);
       showTab('tab-task');
     }
 
     function triggerWhatsApp() {
-      alert("💬 Simulated WhatsApp API Trigger:\nOpening direct chat with Senior Mentor Vikram Sharma: 'Hey Vikram! I'm starting on the Canva event story draft.'");
+      alert("💬 WhatsApp Mentor Connect Trigger:\nOpening direct chat with Senior Mentor: 'Hey! I am starting on my ClubSync starter sprint.'");
     }
 
-    function handleTaskComplete() {
+    async function handleTaskComplete() {
+      const url = document.getElementById('submissionUrl').value;
+      
+      if (typeof submitTaskAPI === 'function') {
+        await submitTaskAPI(assignedTaskId, url);
+        fetchDashboardMetrics();
+      }
+
       document.getElementById('taskStatusBadge').innerText = 'Verified Complete ✓';
       document.getElementById('taskStatusBadge').style.color = '#10b981';
       document.getElementById('podA_stat').innerText = '5 / 5 Complete';
       document.getElementById('podA_badge').innerText = '● 100% Verified';
-      alert('Draft submitted successfully! Senior Mentor Vikram Sharma has been notified to review.');
+      alert('Draft submitted successfully! Mentor has been notified to verify your micro-contribution.');
       showTab('tab-lead');
     }
 
-    function toggleExamPause() {
+    async function toggleExamPause() {
       examBreak = !examBreak;
       const btn = document.getElementById('btnPause');
       const header = document.getElementById('pauseHeader');
       const desc = document.getElementById('pauseDesc');
       const statP = document.getElementById('stat_paused');
       const statA = document.getElementById('stat_active');
+
+      if (typeof togglePauseAPI === 'function') {
+        await togglePauseAPI(registeredMemberId);
+        fetchDashboardMetrics();
+      }
 
       if (examBreak) {
         btn.innerText = "Reactivate Club Duties";

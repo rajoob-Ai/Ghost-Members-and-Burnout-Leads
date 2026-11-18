@@ -108,12 +108,48 @@ When explaining this project to the faculty evaluator, use this structured 2-min
 
 ---
 
+## 🛠️ Full-Stack System Architecture & Local Setup
+
+ClubSync operates as an end-to-end full-stack web application with dual-mode deployment:
+1. **Full-Stack Mode (Local / Production Server):** Powered by an asynchronous Node.js microservice (`server/server.js`) with an atomic JSON database (`server/data.json`) exposing a fully-fledged REST API.
+2. **Decoupled Client Mode (GitHub Pages):** Functions seamlessly on static CDN hosts with automated fallback state management, allowing evaluators to interact with the full user journey without setting up an external backend.
+
+### REST API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/stats` | Real-time executive metrics (Total recruits, active sprints, exam pauses, at-risk pods, activation %) |
+| `GET` | `/api/pods` | Functional pods with member rosters, task completion rates, and blocker alerts |
+| `POST` | `/api/enroll` | Recruits register skills & weekly hours; auto-assigned to balanced 5-member pod + mentor + 45-min starter task |
+| `POST` | `/api/tasks/:id/submit` | Verifies micro-task submissions and updates pod health status in real time |
+| `PATCH` | `/api/members/:id/toggle-pause` | 1-Click dignified Exam Break toggle (silences sprint alerts without roster removal) |
+
+### 🚀 Running the Full-Stack Server Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/rajoob-Ai/Ghost-Members-and-Burnout-Leads.git
+cd Ghost-Members-and-Burnout-Leads
+
+# Start the full-stack server (Zero npm dependencies required!)
+npm start
+# or: node server/server.js
+
+# Open in browser:
+# Web App: http://localhost:3000
+# REST API Stats: http://localhost:3000/api/stats
+# REST API Pods: http://localhost:3000/api/pods
+```
+
+---
+
 ## 🛠️ Tech Stack & Architecture
 
-- **Frontend:** Vanilla HTML5, CSS3 (Modern Flexbox/Grid), JavaScript (ES6+)
+- **Backend:** Node.js (v18+) REST API HTTP microservice (`server/server.js`), Atomic JSON Data Store (`server/data.json`)
+- **Frontend:** Vanilla HTML5, CSS3 (Modern Flexbox/Grid), JavaScript (ES6+) asynchronous client (`public/js/api.js`)
 - **Design System:** Plus Jakarta Sans & JetBrains Mono typography, responsive mobile-first architecture
 - **Zero Third-Party Dependencies:** Ultra-lightweight payload (<150KB) designed specifically to run reliably in low-connectivity campus corridors and basement labs.
-- **Deployment:** GitHub Pages (Automated Continuous Deployment)
+- **Deployment:** GitHub Pages (Automated Continuous Deployment) & Local Node.js runtime
 
 ---
 
