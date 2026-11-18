@@ -79,17 +79,21 @@ Every September at Lovely Professional University, student societies recruit in 
 
 All checkpoints follow the official INT335 syllabus and evaluation criteria:
 
-| Checkpoint | Focus | Document Link | Key Deliverables |
-|---|---|---|---|
-| **CP1** | Project Approval | [CP1_Registration_Sheet.pdf](docs/checkpoints/CP1_Registration_Sheet.pdf) | Annexure A, 5 Mandatory Yes/No tests, field site verification |
-| **CP2** | Empathy Research | [CP2_Stakeholder_Map.pdf](docs/checkpoints/CP2_Stakeholder_Map.pdf)<br>[CP2_Interview_Records.pdf](docs/checkpoints/CP2_Interview_Records.pdf)<br>[CP2_Observation_Records.pdf](docs/checkpoints/CP2_Observation_Records.pdf)<br>[CP2_Empathy_Map.pdf](docs/checkpoints/CP2_Empathy_Map.pdf) | Stakeholder map, 6 verbatim interviews, 2 AEIOU audits, empathy matrices |
-| **CP3** | Problem Definition | [CP3_User_Personas.pdf](docs/checkpoints/CP3_User_Personas.pdf)<br>[CP3_Journey_Map.pdf](docs/checkpoints/CP3_Journey_Map.pdf)<br>[CP3_HMW_Questions.pdf](docs/checkpoints/CP3_HMW_Questions.pdf) | 2 grounded personas, 5-stage as-is journey map, POV & 5 HMW formulations |
-| **CP4** | Ideas & Selection | [CP4_Idea_Generation.pdf](docs/checkpoints/CP4_Idea_Generation.pdf)<br>[CP4_Screening_Matrix.pdf](docs/checkpoints/CP4_Screening_Matrix.pdf)<br>[CP4_Selected_Idea.pdf](docs/checkpoints/CP4_Selected_Idea.pdf) | 31-concept idea log, weighted screening matrix, ClubSync system blueprint |
-| **CP5** | Prototype Readiness | [CP5_User_Flow.pdf](docs/checkpoints/CP5_User_Flow.pdf)<br>[CP5_Prototype_Screens.pdf](docs/checkpoints/CP5_Prototype_Screens.pdf)<br>[CP5_Test_Plan.pdf](docs/checkpoints/CP5_Test_Plan.pdf) | 5-step user flow, wireframe architecture, neutral 4-task usability test plan |
-| **CP6** | Testing & Fixes | [CP6_User_Tests.pdf](docs/checkpoints/CP6_User_Tests.pdf)<br>[CP6_Feedback_Matrices.pdf](docs/checkpoints/CP6_Feedback_Matrices.pdf)<br>[CP6_Issue_List.pdf](docs/checkpoints/CP6_Issue_List.pdf)<br>[CP6_Before_After_Changes.pdf](docs/checkpoints/CP6_Before_After_Changes.pdf) | 7 user test logs, feedback capture grid, prioritized bugs, before/after evidence |
-| **CP7** | Final Showcase | [CP7_Final_Prototype_Spec.pdf](docs/checkpoints/CP7_Final_Prototype_Spec.pdf)<br>[CP7_Presentation_Slides_Script.pdf](docs/checkpoints/CP7_Presentation_Slides_Script.pdf) | Working MVP specification, 12-slide viva deck script & defense guide |
+## 📑 Checkpoint Deliverables & Verified Multi-Page Master Dossiers
 
-📄 **[View Full 22-Part Master Report (PDF)](docs/P18_Full_Design_Thinking_Report.pdf)**
+All checkpoints follow the official INT335 syllabus and evaluation criteria (each checkpoint dossier is **more than 3 pages** with embedded high-resolution figures, tables, and telemetry):
+
+| Checkpoint | Stage & Focus | Document Link | Pages & Visual Assets | Key Deliverables Grounded in Project Data |
+|---|---|---|---|---|
+| **CP1** | Project Approval | *Empty per University Request* | 0 Pages | Kept empty per user instructions. |
+| **CP2** | Stage 1 Empathize | 📄 **[CP2_Stage1_Empathize_Master_Report.pdf](docs/checkpoints/CP2_Stage1_Empathize_Master_Report.pdf)** | **4 Pages**<br>📊 *Figure 1: Retention Drop-off Curve* | Ecosystem Stakeholder Grid (7 tiers), 6 Verbatim qualitative transcripts, 2 AEIOU observational campus audits (Blocks 34/36), Dual Empathy Maps (Aarav & Rohan). |
+| **CP3** | Stage 2 Define | 📄 **[CP3_Stage2_Define_Master_Report.pdf](docs/checkpoints/CP3_Stage2_Define_Master_Report.pdf)** | **4 Pages**<br>🗺️ *5-Stage As-Is Journey Map* | Comprehensive Personas (President Aarav, Fresher Rohan), 5-stage touchpoint mapping, 3-iteration POV formulation, 5 generative HMW opportunity vectors. |
+| **CP4** | Stage 3 Ideate | 📄 **[CP4_Stage3_Ideate_Master_Report.pdf](docs/checkpoints/CP4_Stage3_Ideate_Master_Report.pdf)** | **4 Pages**<br>📊 *Figure 2: Screening Matrix Bar Chart*<br>🔄 *Figure 3: 72-Hr Protocol Flowchart* | 31 divergent concepts across 4 frameworks, pre-weighted decision matrix (ClubSync 4.78 vs AI Bot 3.01), AI chatbot rejection rationale, 5 operational pillars. |
+| **CP5** | Stage 4 Prototype | 📄 **[CP5_Stage4_Prototype_Master_Report.pdf](docs/checkpoints/CP5_Stage4_Prototype_Master_Report.pdf)** | **4 Pages**<br>🏗️ *System Architecture Diagram* | Low-Fi to Full-Stack MVP progression roadmap, 4 core modules walkthrough (including 48-member People Directory), 7 REST API schemas, 4-task neutral usability test plan. |
+| **CP6** | Stage 5 Test & Iterate | 📄 **[CP6_Stage5_Test_Master_Report.pdf](docs/checkpoints/CP6_Stage5_Test_Master_Report.pdf)** | **4 Pages**<br>📈 *Figure 4: Usability Impact Chart* | 7 campus usability test logs (5 recruits, 2 leads), 4-quadrant Feedback Capture Grid, 5 prioritized defect fixes (Safety banner, Exam break rename, Toast alerts), before-vs-after quantitative impact. |
+| **CP7** | Stage 5 Final Showcase | 📄 **[CP7_Final_Showcase_Master_Report.pdf](docs/checkpoints/CP7_Final_Showcase_Master_Report.pdf)** | **4 Pages**<br>🥧 *Figure 5: Live Pod Telemetry & Distribution* | Live 48-recruit production analytics (36 active, 8 on break, 4 blocked), complete 12-slide viva presentation script, tricky faculty defense guide, official 100-mark rubric audit. |
+
+📄 **[View Full Design Thinking Master Dossier (PDF)](docs/P18_Full_Design_Thinking_Report.pdf)** *(Comprehensive compiled project report with high-resolution visual evidence)*
 
 ---
 
